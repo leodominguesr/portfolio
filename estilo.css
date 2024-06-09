@@ -1,5 +1,102 @@
-#nome{
-    background-color: orange;
-    padding: 10px;
-    color: blue;
+body {
+    margin: 0;
+    padding-top: 70px;
+    height: 100vh;
+    background-color: #FFEBD1;
+}
+.container {
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: x-large;
+    font-family: cursive;
+    color: #263138;
+}
+nav ul li a:hover {
+    color: #263138;
+}
+.custom-navbar {
+    background-color: #ff9f21;
+    font-size: larger;
+}
+.active {
+    text-decoration: underline;
+}
+#fotoPrincipal {
+    border-radius: 40px;
+    height: auto;
+}
+#intro {
+    margin-top: 50px;
+    font-size: 2.5em;
+    margin-left: 80px;
+}
+#botao {
+    margin-top: 70px;
+    background-color: #ff9f21;
+    color: #263138;
+    border-radius: 35px;
+    font-size: 0.75em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+#conheca {
+    text-align: center;
+    color: #ff9f21;
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+.subtitulo {
+    margin-top: 40px;
+    font-size: 2em;
+    color: white;
+}
+.video-wrapper {
+    margin-right: 20px; /* Adiciona um pequeno espaço entre os vídeos */
+    flex: 1; /* Faz com que os vídeos ocupem o mesmo espaço dentro do contêiner flexível */
+    margin-bottom: 40px;
+}
+#sobre {
+    font-size: 1.5em;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+#fale {
+    font-size: 2em;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color: #ff9f21;
+}
+#contatos {
+    font-size: 1.5em;
+    color: white;
+}
+i {
+    margin-right: 80px;
+}
+#redes { 
+    color: #ff9f21;
+    margin-top: 190px;
+    font-size: 2.5em;
+}
+#redesHome {
+    color: #263138;
+    font-size: 2em;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 165px;
+}
+.fotos {
+    margin-top: 60px;
+    width: 200px;
+    height: auto;
+    margin-right: 15px;
 }
